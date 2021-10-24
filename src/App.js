@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import translate from "./apis/translate";
+import summarize from "./apis/summarize";
 
 const clickSummarize = () => {
-    translate();
+    summarize();
 };
 
 function App() {

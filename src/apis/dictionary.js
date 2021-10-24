@@ -8,18 +8,16 @@ async function dictonary(word = "hello") {
     axios.get(url).then((response) => {
         try {
             const [def] = response.data;
-            definition = {
-                word: capitalizeFirst(word),
-                ipa: def.phonetics[0].text,
-                partOfSpeech: def.meanings[0].partOfSpeech,
-                definition: def.meanings[0].definitions[0].definition,
-            };
+            definition.word = capitalizeFirst(word);
+            definition.ipa = def.phonetics[0].text;
+            definition.partOfSpeech = def.meanings[0].partOfSpeech;
+            definition.definition = def.meanings[0].definitions[0].definition;
+            console.log(definition);
         } catch (error) {
             console.error(error);
         }
     });
 
-    console.log(definition);
     return definition;
 }
 
