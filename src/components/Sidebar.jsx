@@ -19,18 +19,18 @@ function Sidebar() {
             textOverflow: 'ellipsis',
             whiteSpace: 'nowrap',
           }}>
- Neuroscience 101
+ Overview
  </div>
   </SidebarHeader>
 
 
   <Menu >
-    <MenuItem  suffix={<span className="badge red">important</span>}>Brain Anatomy</MenuItem>
-    <SubMenu title="Neurons" >
+    <MenuItem  suffix={<span className="badge red">important</span>}>Introduction</MenuItem>
+    <SubMenu title="Part I" >
       <MenuItem>Chapter 1</MenuItem>
       <MenuItem>Chapter 2</MenuItem>
     </SubMenu>
-    <SubMenu title="Brain" >
+    <SubMenu title="Part II" >
       <MenuItem>Chapter 1</MenuItem>
       <MenuItem>Chapter 2</MenuItem>
       <MenuItem>Chapter 3</MenuItem>
