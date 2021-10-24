@@ -1,28 +1,21 @@
-/**
- * TODO(developer): Uncomment the following lines before running the sample.
- */
-
-const { Translate } = require("@google-cloud/translate").v2;
-
-const projectId = "valiant-broker-329916";
-const keyFilename = "google-cloud.json";
-// Creates a client
-const translate = new Translate({ projectId, keyFilename });
-
-async function translateText() {
+async function translate(q = "hello world", target = "es") {
+    let translated = {};
     try {
-        const text = "Hello, world!";
-
-        // The target language
-        const target = "ru";
-
-        // Translates some text into Russian
-        const [translation] = await translate.translate(text, target);
-        console.log(`Text: ${text}`);
-        console.log(`Translation: ${translation}`);
-    } catch (err) {
-        console.error("ERROR:", err);
+        const res = await fetch("https://libretranslate.de/translate", {
+            method: "POST",
+            body: JSON.stringify({
+                q,
+                source: "en",
+                target,
+            }),
+            headers: { "Content-Type": "application/json" },
+        });
+        translated = await res.json();
+    } catch (error) {
+        console.error(error);
     }
+    console.log(translated);
+    return translated;
 }
 
-export default translateText;
+export default translate;

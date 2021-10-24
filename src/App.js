@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import dictonary from "./apis/dictionary";
+import translate from "./apis/translate";
 
 const clickSummarize = () => {
-    dictonary();
+    translate();
 };
 
 function App() {
