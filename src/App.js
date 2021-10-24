@@ -1,32 +1,28 @@
-import logo from "./logo.svg";
-import "./App.css";
-import summarize from "./apis/summarize";
-import translate from "./apis/translate";
-
-const clickSummarize = () => {
-    translate();
-};
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import Homepage from './components/Homepage';
+import Neuroscience from './components/Neuroscience';
 
 function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                <button onClick={clickSummarize}>Default</button>;
-            </header>
-        </div>
-    );
+  return (
+    <div>     
+      <div className="wrapper">
+      <Header/>      
+      </div>
+      <BrowserRouter>
+      <Switch>
+          <Route exact path="/">
+            <Homepage/>
+          </Route>
+          <Route exact path="/neuroscience">
+          <Neuroscience/>
+          </Route>
+        </Switch>
+</BrowserRouter>
+    
+    </div>             
+  );
 }
 
 export default App;
