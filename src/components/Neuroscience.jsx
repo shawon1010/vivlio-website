@@ -72,6 +72,9 @@ const Example3 = () => (
 function Neuroscience() {
     return (
         <>
+          <div className="wrapper">
+<Header />
+</div>
             <Row>
                 <Col sm={3}>
                     <Sidebar />

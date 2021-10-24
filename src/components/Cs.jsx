@@ -9,6 +9,9 @@ import Sidebar from "./Sidebar";
 function Cs() {
   return (
     <>
+    <div className="wrapper">
+<Header />
+</div>
       <Row  >
         <Col sm={3}><Sidebar /></Col>
 

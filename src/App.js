@@ -9,9 +9,7 @@ import Neuroscience from './components/Neuroscience';
 function App() {
 return (
 <div>
-<div className="wrapper">
-<Header />
-</div>
+
 <Switch>
 <Route exact path="/">
 <Homepage />

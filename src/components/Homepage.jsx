@@ -12,6 +12,9 @@ import Footer from "./Footer";
 function Homepage() {
   return (
     <div>
+      <div className="wrapper">
+<Header />
+</div>
   <Container> 
   <br/>
 <Row>

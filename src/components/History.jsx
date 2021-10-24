@@ -7,6 +7,9 @@ import Sidebar from "./Sidebar";
 function History() {
   return (
    <>
+   <div className="wrapper">
+<Header />
+</div>
 <Row  >
     <Col sm={3}><Sidebar/></Col>
 
