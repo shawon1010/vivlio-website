@@ -40,7 +40,7 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card.Text>
     Textbook covering the material in CS250. 
   </Card.Text>
-  <Button variant="primary">Click here</Button>
+  <a href= "/cs"><Button variant="primary">Click here</Button></a>
 </Card.Body>
 </Card>  
   </Col>
@@ -51,7 +51,7 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card.Text>
     Textbook covering the content in Neuro101 Spring. 
   </Card.Text>
-  <Button variant="primary">Click here</Button>
+  <a href= "/neuroscience"><Button variant="primary">Click here</Button></a>
 </Card.Body>
 </Card></Col>
   <Col> <Card style={{ width: '18rem' }}>
@@ -61,7 +61,7 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card.Text>
     Textbook covering the content in AH202. 
   </Card.Text>
-  <Button variant="primary">Click here</Button>
+  <a href= "/history"><Button variant="primary">Click here</Button></a>
 </Card.Body>
 </Card></Col>
 </Row>
