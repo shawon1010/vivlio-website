@@ -8,11 +8,10 @@ import Sidebar from "./Sidebar";
 
 
 const popover1 = (
-    <Popover id="popover-basic">
-      <Popover.Header as="h3">Popover right</Popover.Header>
+    <Popover id="popover-basic-1">
+      <Popover.Header as="h3">Neuron</Popover.Header>
       <Popover.Body>
-        This is we are <strong>amazing</strong> content. It's very engaging.
-        right?
+        Neurons, also known as nerve cells, send and receive signals from your brain.
       </Popover.Body>
     </Popover>
   );
@@ -24,11 +23,10 @@ const popover1 = (
   );
 
   const popover2 = (
-    <Popover id="popover-basic">
-      <Popover.Header as="h3">Popover right</Popover.Header>
+    <Popover id="popover-basic-2">
+      <Popover.Header as="h3">Synapse</Popover.Header>
       <Popover.Body>
-        And here's some <strong>amazing</strong> content. It's very engaging.
-        right?
+        A structure that permits a neuron (or nerve cell) to pass an electrical or chemical signal to another neuron or to the target effector cell.
       </Popover.Body>
     </Popover>
   );
@@ -40,7 +38,7 @@ const popover1 = (
   );
 
   const popover3 = (
-    <Popover id="popover-basic">
+    <Popover id="popover-basic-3">
       <Popover.Header as="h3">Popover right</Popover.Header>
       <Popover.Body>
         And here's some <strong>amazing</strong> content. It's very engaging.
