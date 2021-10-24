@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e34a1870.chunk.css",
+    "main.js": "/static/js/main.b02f6557.chunk.js",
+    "main.js.map": "/static/js/main.b02f6557.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d681e33.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d681e33.js.map",
+    "static/css/2.b277a741.chunk.css": "/static/css/2.b277a741.chunk.css",
+    "static/js/2.38b512bc.chunk.js": "/static/js/2.38b512bc.chunk.js",
+    "static/js/2.38b512bc.chunk.js.map": "/static/js/2.38b512bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.b277a741.chunk.css.map": "/static/css/2.b277a741.chunk.css.map",
+    "static/css/main.e34a1870.chunk.css.map": "/static/css/main.e34a1870.chunk.css.map",
+    "static/js/2.38b512bc.chunk.js.LICENSE.txt": "/static/js/2.38b512bc.chunk.js.LICENSE.txt",
+    "static/media/biology-book-cover.789c7c08.png": "/static/media/biology-book-cover.789c7c08.png",
+    "static/media/book.1f9650ab.png": "/static/media/book.1f9650ab.png",
+    "static/media/cplusplus-book-cover.41964f5a.svg": "/static/media/cplusplus-book-cover.41964f5a.svg",
+    "static/media/history-book-cover.b2c12e19.png": "/static/media/history-book-cover.b2c12e19.png",
+    "static/media/html5.23784160.png": "/static/media/html5.23784160.png",
+    "static/media/node.abfaef34.png": "/static/media/node.abfaef34.png",
+    "static/media/octo.1c95b85d.png": "/static/media/octo.1c95b85d.png",
+    "static/media/react.93a4bdf1.png": "/static/media/react.93a4bdf1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d681e33.js",
+    "static/css/2.b277a741.chunk.css",
+    "static/js/2.38b512bc.chunk.js",
+    "static/css/main.e34a1870.chunk.css",
+    "static/js/main.b02f6557.chunk.js"
+  ]
+}
