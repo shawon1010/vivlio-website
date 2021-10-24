@@ -13,10 +13,9 @@ function Homepage() {
     <div>
   <Container> 
   <br/>
-  <li><a href="/neurosciene">Neurosciene link</a></li>
 <Row>
   <Col><h1>
-    
+        
     Learn Better <br/>
     Understand <i>Faster</i>
     </h1></Col>
