@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import biologyBookCover from "../data/biology-book-cover.png";
 import cPlusPlusBookCover from "../data/cplusplus-book-cover.svg";
 import historyBookCover from "../data/history-book-cover.png";
-import Footer from "./Footer"; 
+import Footer from "./Footer";
 
 function Homepage() {
   return (
