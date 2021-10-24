@@ -18,7 +18,7 @@ function Homepage() {
   <br/>
   <br/>
   <br/>
-    Learn <mark style={{backgroundColor: "yellow"}}>Better</mark> <br/>
+    Learn <mark style={{backgroundColor: "#FFFC78"}}>Better</mark> <br/>
     Understand <i>Faster</i>
     </h1></Col>
   <Col>
