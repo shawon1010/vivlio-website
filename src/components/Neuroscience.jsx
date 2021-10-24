@@ -5,8 +5,8 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Popover from "react-bootstrap/Popover";
 import Row from "react-bootstrap/Row";
 import Stack from "react-bootstrap/Stack";
-import Sidebar from "./Sidebar";
 import Paragraph from "./Paragraph";
+import Sidebar from "./Sidebar";
 
 
 //jquery starts from here
