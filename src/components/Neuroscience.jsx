@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import Stack from "react-bootstrap/Stack";
 import Paragraph from "./Paragraph";
 import Sidebar from "./Sidebar";
+import Header from "./Header"
 
 
 //jquery starts from here

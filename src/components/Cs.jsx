@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Paragraph from './Paragraph';
 import Sidebar from "./Sidebar";
+import Header from "./Header"
 
 
 

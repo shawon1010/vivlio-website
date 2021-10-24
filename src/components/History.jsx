@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Stack from 'react-bootstrap/Stack';
 import Sidebar from "./Sidebar";
+import Header from "./Header"
 
 function History() {
   return (

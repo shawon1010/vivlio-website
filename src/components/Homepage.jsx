@@ -8,6 +8,7 @@ import biologyBookCover from "../data/biology-book-cover.png";
 import cPlusPlusBookCover from "../data/cplusplus-book-cover.svg";
 import historyBookCover from "../data/history-book-cover.png";
 import Footer from "./Footer";
+import Header from "./Header"
 
 function Homepage() {
   return (
