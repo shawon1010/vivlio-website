@@ -4,8 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Stack from 'react-bootstrap/Stack';
 import Sidebar from "./Sidebar";
 
-
-
 function History() {
   return (
    <>

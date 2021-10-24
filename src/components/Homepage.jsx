@@ -15,8 +15,7 @@ function Homepage() {
   <Container> 
   <br/>
 <Row>
-  <Col><h1>
-  <br/>
+  <Col><h1 style={{fontSize: '60px'}}>
   <br/>
   <br/>
     Learn <mark style={{backgroundColor: "#FFFC78"}}>Better</mark> <br/>
