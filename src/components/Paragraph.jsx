@@ -13,13 +13,13 @@ function Paragraph(props) {
     let posth3 = "";
     let posth5 = "";
 
-    function showText() {
-        setCategories(true);
-    }
+    // function showText() {
+    //     setCategories(true);
+    // }
 
-    function hideText() {
-        setCategories(false);
-    }
+    // function hideText() {
+    //     setCategories(false);
+    // }
 
     function translateText() {
         posth3 = translate(h3, language);

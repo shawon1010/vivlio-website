@@ -8,6 +8,12 @@ import Stack from 'react-bootstrap/Stack';
 import Sidebar from "./Sidebar";
 
 
+
+//jquery starts from here
+
+//jquery ends here
+
+
 const popover1 = (
     <Popover id="1">
       <Popover.Header as="h3">Neuron</Popover.Header>
