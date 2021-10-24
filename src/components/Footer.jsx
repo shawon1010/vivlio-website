@@ -38,7 +38,7 @@ function Footer(){
 <Row style={{textAlign: 'center'}}>
 <Col><a href="https://reactjs.org/"><img src={jsReact} style={{width:'140px', height:'100px'}}></img></a></Col>
 <Col><a href="https://nodejs.org/en/"><img src={jsNode} style={{width:'140px', height:'85px'}}></img></a></Col>
-<Col><a href="https://github.com/rjanamsetty/vivlio.techoct"><img src={octo} style={{width:'90px', height:'90px'}}></img></a></Col>
+<Col><a href="https://github.com/rjanamsetty/vivlio.tech"><img src={octo} style={{width:'90px', height:'90px'}}></img></a></Col>
 <Col><a href="https://en.wikipedia.org/wiki/HTML5"><img src={html} style={{width:'100px', height:'90px'}}></img></a></Col>
 <Col><a href="https://rapidapi.com/"><img src={rapid} style={{width:'100px', height:'100px'}}></img></a></Col>
 </Row>
