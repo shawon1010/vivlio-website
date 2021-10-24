@@ -10,7 +10,7 @@ function Header() {
    <>
   <Navbar bg="dark" variant="dark">
     <Container>
-    <Navbar.Brand href="#home">[Vivlio]</Navbar.Brand>
+    <Navbar.Brand style = {{fontSize: '34px'}} href="#home">[Βιβλίο]</Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link href="#home">Coding</Nav.Link>
       <Nav.Link href="#features">Biology</Nav.Link>
