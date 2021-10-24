@@ -14,7 +14,7 @@ import octo from "../data/octo.png";
 
 function Footer(){
   return (
-    <div style={{backgroundColor: "#E9E9E9", marginTop: "50px", paddingTop: "10px", paddingBottom: "1px", position: "absolute", left: '0', right: '0'}}>
+    <div style={{backgroundColor: "#E9E9E9", marginTop: "100px", paddingTop: "10px", paddingBottom: "1px", position: "absolute", left: '0', right: '0'}}>
  
   
         
