@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 import biologyBookCover from "../data/biology-book-cover.png";
 import cPlusPlusBookCover from "../data/cplusplus-book-cover.svg";
 import historyBookCover from "../data/history-book-cover.png";
+import Footer from "./Footer"; 
 
 function Homepage() {
   return (
@@ -64,6 +65,7 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
 </Card.Body>
 </Card></Col>
 </Row>
+<Footer/>
 </Container>
 
   
