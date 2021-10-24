@@ -1,7 +1,7 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Stack from 'react-bootstrap/Stack';
+import Paragraph from './Paragraph';
 import Sidebar from "./Sidebar";
 
 
@@ -44,6 +44,8 @@ function Cs() {
           classes and how they are used here, we will be ready to tackle object-oriented programming
          in the next unit.</h5>
           <br />
+          <Paragraph/>
+          <br/>
           <h3>Working with simple Data Structures</h3>
           <h5>Data structures are just ways to store multiple data values. Arrays, structs,
           enumerations, unions, queues, lists, and vectors are a few examples of data structures.
