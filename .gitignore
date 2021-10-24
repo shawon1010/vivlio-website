@@ -1,2 +1,7 @@
 /node_modules
+.DS_Store
+.env
 *.DS_Store
+.DS_Store
+valiant-broker-329916-e26578da7c2b.json
+google-cloud.json
