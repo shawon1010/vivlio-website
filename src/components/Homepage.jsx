@@ -15,8 +15,10 @@ function Homepage() {
   <br/>
 <Row>
   <Col><h1>
-        
-    Learn Better <br/>
+  <br/>
+  <br/>
+  <br/>
+    Learn <mark style={{backgroundColor: "yellow"}}>Better</mark> <br/>
     Understand <i>Faster</i>
     </h1></Col>
   <Col>
@@ -33,35 +35,32 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={cPlusPlusBookCover} />
 <Card.Body>
-  <Card.Title>Card Title</Card.Title>
+  <Card.Title>Computer Science 250</Card.Title>
   <Card.Text>
-    Some quick example text to build on the card title and make up the bulk of
-    the card's content.
+    Textbook covering the material in CS250. 
   </Card.Text>
-  <Button variant="primary">Go somewhere</Button>
+  <Button variant="primary">Click here</Button>
 </Card.Body>
 </Card>  
   </Col>
   <Col> <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={biologyBookCover} />
 <Card.Body>
-  <Card.Title>Card Title</Card.Title>
+  <Card.Title>Neuroscience 101</Card.Title>
   <Card.Text>
-    Some quick example text to build on the card title and make up the bulk of
-    the card's content.
+    Textbook covering the content in Neuro101 Spring. 
   </Card.Text>
-  <Button variant="primary">Go somewhere</Button>
+  <Button variant="primary">Click here</Button>
 </Card.Body>
 </Card></Col>
   <Col> <Card style={{ width: '18rem' }}>
 <Card.Img variant="top" src={historyBookCover} />
 <Card.Body>
-  <Card.Title>Card Title</Card.Title>
+  <Card.Title>American History 202</Card.Title>
   <Card.Text>
-    Some quick example text to build on the card title and make up the bulk of
-    the card's content.
+    Textbook covering the content in AH202. 
   </Card.Text>
-  <Button variant="primary">Go somewhere</Button>
+  <Button variant="primary">Click here</Button>
 </Card.Body>
 </Card></Col>
 </Row>
