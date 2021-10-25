@@ -5,14 +5,11 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Popover from "react-bootstrap/Popover";
 import Row from "react-bootstrap/Row";
 import Stack from "react-bootstrap/Stack";
+import Header from "./Header";
 import Paragraph from "./Paragraph";
 import Sidebar from "./Sidebar";
-import Header from "./Header"
 
 
-//jquery starts from here
-
-//jquery ends here
 
 
 const popover1 = (
@@ -82,6 +79,9 @@ function Neuroscience() {
                 </Col>
 
                 <Col sm={8}>
+<p> Dummy/Demo Content sourced from <a href="https://www.hse.ru/data/2013/10/09/1280379806/Fundamental%20Neuroscience%20(3rd%20edition)%202008.pdf"> Funamental Neuroscience </a>  </p>
+
+
                     <h3> Introduction to Neuroscience</h3>
                     <h5>
                         The field of knowledge described in this book is

@@ -1,9 +1,8 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import Stack from 'react-bootstrap/Stack';
+import Header from "./Header";
 import Sidebar from "./Sidebar";
-import Header from "./Header"
 
 function History() {
   return (
@@ -17,7 +16,7 @@ function History() {
     <Col sm={8}>
     <br />
           <h2>American History: Advanced Concepts</h2>
-          <p>Content sourced from <a href="https://openstax.org/details/books/us-history">OpenStax US History</a>.</p>
+          <p>Dummy/Demo Content sourced from <a href="https://openstax.org/details/books/us-history">OpenStax US History</a>.</p>
           <br />
     <h5>U.S. History is designed to meet the scope and sequence requirements of most introductory 
       courses. The text provides a balanced approach to U.S. history, considering the people, 

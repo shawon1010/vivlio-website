@@ -1,16 +1,13 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import Row from 'react-bootstrap/Row';
 import Stack from 'react-bootstrap/Stack';
-import bookImage from "../data/book.png"; 
-import jsReact from "../data/react.png"; 
-import jsNode from "../data/node.png";
+import bookImage from "../data/book.png";
 import html from "../data/html5.png";
-import rapid from "../data/rapidapi.png";
+import jsNode from "../data/node.png";
 import octo from "../data/octo.png";
+import rapid from "../data/rapidapi.png";
+import jsReact from "../data/react.png";
 
 function Footer(){
   return (
@@ -25,7 +22,7 @@ function Footer(){
 <Row>
 <Col></Col>
 <Col xs={7}>
-    <p style = {{textAlign: 'center'}}>As our group's first hackathon, HackDuke2021 was an unforgettable experience. The past 36 hours have been incredible fun as well as an invaluable learning expereince. We would like to thank the organizers and sponsors of this event for making this experience possible. </p>
+    <p style = {{textAlign: 'center'}}>As our group's first hackathon, HackDuke2021 was an unforgettable experience. The past 24 hours have been incredible fun as well as an invaluable learning expereince. We would like to thank the organizers and sponsors of this event for making this experience possible. </p>
     </Col>
     <Col></Col>
     </Row>
@@ -43,7 +40,7 @@ function Footer(){
 <Col><a href="https://rapidapi.com/"><img src={rapid} style={{width:'100px', height:'100px'}}></img></a></Col>
 </Row>
 <br/>
-<p style = {{textAlign: 'center'}}><i>HackDuke 2021, All Rights Reserved.</i></p> 
+<p style = {{textAlign: 'center'}}><i> A demo website built at hackathon</i></p> 
 
   
 </div>

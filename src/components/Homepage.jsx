@@ -4,11 +4,12 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import { Link } from "react-router-dom";
 import biologyBookCover from "../data/biology-book-cover.png";
 import cPlusPlusBookCover from "../data/cplusplus-book-cover.svg";
 import historyBookCover from "../data/history-book-cover.png";
 import Footer from "./Footer";
-import Header from "./Header"
+import Header from "./Header";
 
 function Homepage() {
   return (
@@ -43,7 +44,11 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card.Text>
     Textbook covering the material in CS250. 
   </Card.Text>
-  <a href= "/cs"><Button variant="primary">Click here</Button></a>
+            
+             <Link to="/cs"  style={{
+                color: `white`,
+                textDecoration: `none`, marginRight: `10px`
+              }}>  <Button variant="primary">Click here</Button></Link>
 </Card.Body>
 </Card>  
   </Col>
@@ -54,7 +59,10 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card.Text>
     Textbook covering the content in Neuro101 Spring. 
   </Card.Text>
-  <a href= "/neuroscience"><Button variant="primary">Click here</Button></a>
+  <Link to="/neuroscience"  style={{
+                color: `white`,
+                textDecoration: `none`, marginRight: `10px`
+              }}>  <Button variant="primary">Click here</Button></Link>
 </Card.Body>
 </Card></Col>
   <Col> <Card style={{ width: '18rem' }}>
@@ -64,7 +72,10 @@ src="https://widgets.judge0.com?widgetId=kxw3&theme=dark&language=optional">
   <Card.Text>
     Textbook covering the content in AH202. 
   </Card.Text>
-  <a href= "/history"><Button variant="primary">Click here</Button></a>
+  <Link to="/history"  style={{
+                color: `white`,
+                textDecoration: `none`, marginRight: `10px`
+              }}>  <Button variant="primary">Click here</Button></Link>
 </Card.Body>
 </Card></Col>
 </Row>
