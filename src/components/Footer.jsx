@@ -40,7 +40,7 @@ function Footer(){
 <Col><a href="https://rapidapi.com/"><img src={rapid} style={{width:'100px', height:'100px'}}></img></a></Col>
 </Row>
 <br/>
-<p style = {{textAlign: 'center'}}><i> A demo website built at hackathon</i></p> 
+<p style = {{textAlign: 'center'}}><i> A demo website built at Duke Hackathon 2021</i></p> 
 
   
 </div>
